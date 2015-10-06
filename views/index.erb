@@ -1,8 +1,16 @@
 <html>
   <head></head>
+  <link rel="stylesheet" type="text/css" href="/style.css">
   <body>
+    <h1> Welcome to the Number Guessing Game!</h>
+    <h3> Please enter a number in the box below</h>
     <p>
-      The SECRET NUMBER is <%= number %>
+    <form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+    </form>
+    <p>
+      <%= message %>
     </p>
   </body>
 </html>
